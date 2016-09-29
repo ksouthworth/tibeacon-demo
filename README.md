@@ -1,6 +1,6 @@
 A basic iOS mobile app that can "listen" for a beacon and display basic information like in/out of range and approximate distance from the beacon.  These are the basic building blocks you'll need to build a more full-featured mobile app.
 
-[screenshot]
+![screenshot](doc/screenshot.jpg)
 
 ## Requirements
 
