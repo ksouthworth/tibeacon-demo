@@ -1,0 +1,18 @@
+{
+	"global": {
+		"beacon": {
+			"uuid": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+			"major": 61020,
+			"minor": 26147
+		}
+	},
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"os:windows": {},
+	"dependencies": {}
+}

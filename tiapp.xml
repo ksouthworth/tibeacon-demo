@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.webascender.dev.tibeacon</id>
+    <name>tibeacon-demo</name>
+    <version>1.0</version>
+    <publisher>not specified</publisher>
+    <url>unspecified</url>
+    <description>not specified</description>
+    <copyright>not specified</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>false</analytics>
+    <guid>496a5ad0-1286-4fc3-9111-fc4c1ebc6c50</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <property name="run-on-main-thread" type="bool">true</property>
+    <ios>
+        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <use-app-thinning>true</use-app-thinning>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+                <key>UIBackgroundModes</key>
+                <array>
+                    <string>location</string>
+                    <string>bluetooth-central</string>
+                </array>
+                <key>NSLocationAlwaysUsageDescription</key>
+                <string>
+                    We use low-energy Bluetooth and iBeacons devices to provide relevant information to you.
+                </string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="iphone">org.beuckman.tibeacons</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>5.5.1.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">57ebfcf409bcc44027cf7a71</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">4uO7BdvKBJpOrmSsMkG8eij4CGU4ykU5</property>
+    <property name="acs-oauth-key-development" type="string">gK25YLyXU0Z7bC8M4v45qQFtzpkRYDUi</property>
+    <property name="acs-api-key-development" type="string">z8AwusKOwc1fteJMICiFfYXF5P05OjB1</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">PYMXIDT4UFDTDdvfYt</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">uTTSWyw2qBqhJ53tJmZEvBWnHtzxBhXW</property>
+    <property name="acs-oauth-key-production" type="string">juP0cg8oL3ccD112fCnkHFtfE0Ej7pqd</property>
+    <property name="acs-api-key-production" type="string">fPJr6BOGElk6aLB6IzZidjO0Ns91lD1Y</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">z3MacBZjOUZlqjFlEn</property>
+    <property name="appc-org-id" type="string">100007096</property>
+    <property name="appc-creator-user-id" type="string">e4ef22cb-ee1f-4e7a-8399-e971d7e6329b</property>
+</ti:app>

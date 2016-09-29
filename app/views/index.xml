@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container" layout="vertical" top="40">
+        <View layout="horizontal" height="35" width="98%">
+            <Label>Monitoring</Label>
+            <Switch id="monitoringSwitch" left="4" value="false" onChange="toggleMonitoring"/>
+            <Button left="100" onClick="clearLog">Clear Log</Button>
+        </View>
+        <View layout="horizontal" height="SIZE" width="98%">
+            <Label id="beaconLabel"></Label>
+        </View>
+        <ScrollView width="98%" height="FILL" backgroundColor="white">
+            <Label id="label" width="FILL" height="SIZE"></Label>
+        </ScrollView>
+	</Window>
+</Alloy>
